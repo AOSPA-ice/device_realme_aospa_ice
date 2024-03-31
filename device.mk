@@ -405,7 +405,8 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors-service.oplus-multihal \
     libsensorndkbridge \
     sensors.oplus \
-    libdumpstateutil.vendor
+    libdumpstateutil.vendor \
+    vendor.lineage.oplus_als.service
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
