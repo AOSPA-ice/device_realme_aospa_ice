@@ -55,6 +55,7 @@ vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=true
 
 # Bluetooth
+bluetooth.device.default_name=realme Q3s
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.idle_cur_ma=6
 bluetooth.hardware.power.operating_voltage_mv=3700
@@ -144,6 +145,8 @@ ro.surface_flinger.protected_contents=true
 ro.surface_flinger.use_color_management=true
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
+ro.surface_flinger.set_idle_timer_ms=4000
+ro.surface_flinger.set_touch_timer_ms=4000
 
 # Incremental FS
 ro.incremental.enable=yes
@@ -160,6 +163,7 @@ persist.vendor.radio.custom_ecc=1
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.rat_on=combine
 ro.telephony.default_network=33,33
+persist.radio.multisim.config=dsds
 
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
@@ -180,6 +184,7 @@ vendor.usb.rmnet.inst.name=rmnet
 vendor.usb.rndis.func.name=gsi
 vendor.usb.use_ffs_mtp=1
 vendor.usb.use_gadget_hal=0
+vendor.usb.product_string=realme Q3s
 
 # Zygote
 zygote.critical_window.minute=10
