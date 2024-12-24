@@ -32,6 +32,7 @@ native_dlkm.ko
 pinctrl_lpi_dlkm.ko
 pinctrl_wcd_dlkm.ko
 platform_dlkm.ko
+qcom_edac.ko
 q6_dlkm.ko
 q6_notifier_dlkm.ko
 q6_pdr_dlkm.ko
